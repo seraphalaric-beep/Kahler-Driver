@@ -1,0 +1,100 @@
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #17212f;
+  background: #f5f7fb;
+}
+
+main {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+h1 {
+  text-align: center;
+  color: #163f77;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 24px rgba(18, 34, 56, 0.08);
+}
+
+.instructions {
+  line-height: 1.5;
+}
+
+.question {
+  border-top: 1px solid #e5e7eb;
+  padding: 1rem 0;
+}
+
+.question-header {
+  display: flex;
+  gap: 0.5rem;
+  line-height: 1.4;
+}
+
+.responses {
+  margin-top: 0.65rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.responses label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+button {
+  margin-top: 1rem;
+  border: 0;
+  background: #163f77;
+  color: white;
+  padding: 0.65rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.results {
+  margin-top: 1.25rem;
+  border-top: 2px solid #d8dee9;
+  padding-top: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+
+th,
+td {
+  border: 1px solid #d1d5db;
+  padding: 0.55rem;
+  text-align: left;
+}
+
+th {
+  background: #f8fafc;
+}
